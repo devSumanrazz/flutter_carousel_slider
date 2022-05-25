@@ -43,7 +43,7 @@ class CarouselOptions {
   ///
   /// [autoPlay] is set to true.
   /// Defaults to 4 seconds.
-  final Duration autoPlayInterval;
+  Duration autoPlayInterval;
 
   /// The animation duration between two transitioning pages while in auto playback.
   ///
