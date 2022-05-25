@@ -18,7 +18,7 @@ typedef Widget ExtendedIndexedWidgetBuilder(
 
 class CarouselSlider extends StatefulWidget {
   /// [CarouselOptions] to create a [CarouselState] with
-  final CarouselOptions options;
+  CarouselOptions options;
 
   /// The widgets to be shown in the carousel of default constructor
   final List<Widget>? items;
